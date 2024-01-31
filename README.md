@@ -10,7 +10,8 @@ Set `RDV_IP` and `RDV_PORT` for the desired RDV endpoint. Optionally adjust othe
 
 Redirect `onlineconfigservice.ubi.com` requests to this service, e.g. using `hosts` file.
 
-Run:
+Install dependencies and run:
 ```
+pip install -r requirements.txt
 python onlineconfig.py
 ```
